@@ -1,0 +1,37 @@
+h2{
+    color: blue;
+}
+h1{
+    color: rgb(32, 16, 49);
+}
+body {
+    width: 80%;
+    margin: auto;
+}
+#container {
+    display:grid;
+}
+header {
+    grid-column: 1/13;
+    grid-row: 1;
+    background-color: aqua;
+    text-align: center;
+}
+section{
+    grid-column: 1/9;
+    grid-row: 2;
+    padding: 4px;
+    border: 1px inset lightcoral;
+}
+aside {
+    grid-column: 9/13;
+    grid-row: 2;
+    padding: 4px;
+    border: 1px inset lightcoral;
+}
+footer{
+    grid-column: 1/13;
+    grid-row: 3;
+    background-color: cyan;
+    text-align: center;
+}
